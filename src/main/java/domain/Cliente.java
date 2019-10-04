@@ -9,7 +9,7 @@ public class Cliente {
 
     }
 
-    public void reservar(Inmueble unInmueble, Empleado unEmpleado){
+    public void solicitarReservaDe(Inmueble unInmueble, Empleado unEmpleado){
         unEmpleado.reservar(unInmueble,this);
     }
 
