@@ -1,4 +1,5 @@
 package domain.EstadoOps;
 
-public class Reservado {
+public class Reservado extends EstadoOperacion{
+
 }

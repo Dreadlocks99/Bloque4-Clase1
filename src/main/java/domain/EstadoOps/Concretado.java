@@ -1,4 +1,4 @@
 package domain.EstadoOps;
 
-public class Concretado {
+public class Concretado extends EstadoOperacion {
 }

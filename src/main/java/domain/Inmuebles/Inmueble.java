@@ -1,5 +1,6 @@
 package domain.Inmuebles;
 
+import domain.Empleado;
 import domain.Operaciones.Operacion;
 import domain.Zona;
 
@@ -30,5 +31,9 @@ public abstract class Inmueble {
 
     public double calcularTotal(){
         return 0;
+    }
+
+    public void serReservadoPor(Empleado unEmpleado){
+        this.unaOperacion.reservar();
     }
 }

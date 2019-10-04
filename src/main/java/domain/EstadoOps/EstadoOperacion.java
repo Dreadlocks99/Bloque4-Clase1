@@ -1,5 +1,5 @@
 package domain.EstadoOps;
 
-public interface EstadoOperacion {
+public abstract class EstadoOperacion {
 
 }
