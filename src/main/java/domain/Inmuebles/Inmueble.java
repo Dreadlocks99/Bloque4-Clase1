@@ -9,11 +9,26 @@ public abstract class Inmueble {
     private Zona unaZona;
     private Operacion unaOperacion;
 
-    public Inmueble(double metrosCuadrados, int cantAmbientes, Zona unaZona, Operacion unaOperacion) {
+    public Inmueble(double metrosCuadrados, int cantAmbientes, Zona unaZona) {
         this.metrosCuadrados = metrosCuadrados;
         this.cantAmbientes = cantAmbientes;
         this.unaZona = unaZona;
-        this.unaOperacion = unaOperacion;
+
     }
 
+    public double getMetrosCuadrados() {
+        return metrosCuadrados;
+    }
+
+    public int getCantAmbientes() {
+        return cantAmbientes;
+    }
+
+    public double calcularPlus(){
+        return this.unaZona.getPlus();
+    }
+
+    public double calcularTotal(){
+        return 0;
+    }
 }
