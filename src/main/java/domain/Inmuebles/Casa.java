@@ -14,5 +14,9 @@ public class Casa extends Inmueble{
         return this.valorParticular + calcularPlus();
     }
 
+    public boolean estaReservada(){
+        return unaOperacion.estaReservada();
+    }
+
 
 }

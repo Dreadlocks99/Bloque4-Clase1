@@ -10,8 +10,12 @@ public class Alquiler extends Operacion {
         this.cantMeses = cantMeses;
     }
 
+    public Alquiler() {
+
+    }
+
     @Override
-    public double calcularComision(Inmueble unInmueble){
+    public double calcularComision(){
         return this.cantMeses * unInmueble.calcularTotal();
     }
 }

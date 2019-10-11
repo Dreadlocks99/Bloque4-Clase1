@@ -16,6 +16,10 @@ public class PH extends Inmueble {
         return ((getMetrosCuadrados() * PH.precioPorMetroCuadrado) + precioBase) + calcularPlus();
     }
 
+    public boolean estaReservada(){
+        return unaOperacion.estaReservada();
+    }
+
 
 
 }

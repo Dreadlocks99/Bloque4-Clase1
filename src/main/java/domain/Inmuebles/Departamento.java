@@ -13,4 +13,8 @@ public class Departamento extends Inmueble {
     public double calcularTotal(){
         return (super.getCantAmbientes() * Departamento.precioPorAmbiente) + calcularPlus();
     }
+
+    public boolean estaReservada(){
+        return unaOperacion.estaReservada();
+    }
 }

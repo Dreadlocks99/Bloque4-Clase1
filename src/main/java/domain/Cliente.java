@@ -13,4 +13,8 @@ public class Cliente {
         unEmpleado.reservar(unInmueble,this);
     }
 
+    public void solicitarConcretacion(Inmueble unInmueble, Empleado unEmpleado){
+        unEmpleado.concretar(unInmueble,this);
+    }
+
 }
